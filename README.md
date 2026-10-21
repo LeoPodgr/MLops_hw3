@@ -98,11 +98,7 @@ git clone https://github.com/NikitaMalykhin/mlops_realtime_fraud_detector_airflo
 cd mlops_realtime_fraud_detector_airflow
 ```
 
-### 2. Создайте `.env` файл
-
-```bash
-cp .env.example .env
-```
+### 2. Отредактируйте `.env` файл
 
 В `TRAIN_DATA_CSV` укажите путь к размеченному `train.csv` на вашей машине.
 
